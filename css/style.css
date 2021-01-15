@@ -13,4 +13,32 @@ body {
   font-family: 'Nerko One', cursive;
   text-align: center;
   font-size: 80px;
+  text-shadow: 2px 2px gray;
+  margin-bottom: 25px;
+
 }
+
+#contenitore {
+
+  position: relative;
+  /* border: blue 1px solid; */
+  width: 800px;
+  height: 800px;
+  margin:auto;
+}
+
+.carta {
+  
+  margin-bottom: 20px;
+  margin-right: 20px;
+  display: inline-block;
+  box-shadow: 1px 1px lightgray;
+  border-radius: 5px 5px;
+  background-size: contain;
+  background-image: url("../img/pattern.png");
+  background-color: yellow;
+  width:160px;
+  height: 200px;
+
+
+  }
