@@ -40,6 +40,7 @@ body {
   background-image: none;
   background-size: 100% 80%;
   background-repeat: no-repeat;
+
 }
 
 .carta-coperta:hover {
@@ -54,6 +55,16 @@ body {
 .carta:hover .testo-carta{
   opacity:1;
 }
+
+#carta-iniziale {
+background-image: url("../img/noun_air_balloon_3134741.svg");
+background-color: white;
+}
+
+.carta:hover #testo-iniziale{
+  color:orange;
+}
+
 /* /AZIONI CARTE */
 
 /* IMMAGINI CARTE */
@@ -89,10 +100,18 @@ body {
 
 /* /IMMAGINI CARTE */
 
+/* REGOLE TESTO */
+
+#testo-iniziale {
+  text-align: center;
+  margin-top: 170px;
+}
+
 h2.testo-carta {
   text-align: center;
   margin-top: 170px;
 }
+/* /REGOLE TESTO */
 
 /* SEZIONE COLORI TESTO*/
 .arancione {
